@@ -1,4 +1,5 @@
 ---
+colorSchema: dark
 theme: default
 title: 可能性を拡げる
 transition: slide-left
