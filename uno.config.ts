@@ -1,21 +1,9 @@
 import { defineConfig } from "unocss";
+import { colors } from "./theme-colors";
 
 export default defineConfig({
   theme: {
-    colors: {
-      bg: {
-        light: "#f8fafc",
-        dark: "#131313",
-      },
-      text: {
-        light: "#0c0c0c",
-        dark: "#f1f5f9",
-      },
-      accent: {
-        DEFAULT: "#6366f1",
-        light: "#818cf8",
-      },
-    },
+    colors,
     fontSize: {
       "slide-xs": ["0.75rem", "1.2"],
       "slide-sm": ["0.875rem", "1.4"],
